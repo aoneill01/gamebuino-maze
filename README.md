@@ -2,7 +2,7 @@
 
 [Gamebuino](http://gamebuino.com) implementation of a simple 2D maze game.
 
-![Screenshot](images/sim.gif?raw=true)
+![Screenshot](src/images/sim.gif?raw=true)
 
 # Playing the game
 
