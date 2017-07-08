@@ -62,7 +62,6 @@ const byte logo[] PROGMEM = {64,36,
 
 void setup() {
   gb.begin();
-  gb.pickRandomSeed();
   reset();
 }
 
@@ -94,6 +93,7 @@ void loop() {
 void reset() {
   gb.titleScreen(F(""), logo);
   gb.battery.show = false;
+  gb.pickRandomSeed();
   
   generateMaze(10, 10);
 }
